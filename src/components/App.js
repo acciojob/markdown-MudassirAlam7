@@ -1,6 +1,6 @@
 import React from "react";
 import Markdown from "./MarkdownEditor";
-import "../components/style.css";
+import "../components/styles.css";
 
 
 function App() {

@@ -10,7 +10,9 @@ const Markdown = ()=>{
             className="textarea"
             value={text}
             onChange={(e)=>setText(e.target.value)}></textarea>
-            <div className="preview"><h1>{text}</h1></div>
+            <div className="preview">
+                {text || <p className="loading">Loading...</p>}
+            </div>
         </div>
     )
 }
